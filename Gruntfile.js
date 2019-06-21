@@ -13,13 +13,13 @@ module.exports = function(grunt) {
               ],
               dest: 'dist/js/app.js',
           }
-        }
+        },
         uglify: {
             build: {
                 src: 'dist/js/app.js',
                 dest: 'dist/js/app.min.js'
             }
-        }
+        },
         imagemin: {
             dynamic: {
                 files: [{
